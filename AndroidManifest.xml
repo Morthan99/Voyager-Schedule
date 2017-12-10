@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.krzych.application">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bus"
+        android:label="Voyager"
+        android:roundIcon="@mipmap/bus"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main_Menu">
+            <intent-filter>
+                <action android:name=".Main_Menu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BielskPodlaski">
+            <intent-filter>
+                <action android:name=".BielskPodlaski" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".suwalki">
+            <intent-filter>
+                <action android:name=".suwalki" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tykocin">
+            <intent-filter>
+                <action android:name=".tykocin"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".bialowieza" >
+            <intent-filter>
+                <action android:name=".bialowieza"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".czarnaBialostocka" >
+            <intent-filter>
+                <action android:name=".czarnaBialostocka"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".grodek" >
+            <intent-filter>
+                <action android:name=".grodek"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".sokolka" >
+            <intent-filter>
+                <action android:name=".sokolka"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".suprasl" >
+            <intent-filter>
+                <action android:name=".suprasl"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".turosnKoscielna">
+            <intent-filter>
+                <action android:name=".turosnKoscielna"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
