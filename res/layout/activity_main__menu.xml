@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/road"
+    tools:context="com.example.krzych.application.Main_Menu">
+
+    <GridLayout
+        android:layout_gravity="center_vertical"
+        android:id="@+id/Grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="1.5dp"
+            android:background="#99051228"
+            android:gravity="center"
+            android:onClick="suwalki"
+            android:text="Suwałki"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_margin="1.5dp"
+            android:textColor="#FFFFFF"
+            android:background="#99051228"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/button18"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:onClick="czarnaBialostocka"
+            android:text="Czarna Biał." />
+
+        <Button
+            android:layout_margin="1.5dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#99051228"
+            android:id="@+id/button19"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:onClick="sokolka"
+            android:text="Sokółka" />
+
+        <Button
+            android:layout_margin="1.5dp"
+            android:gravity="center"
+            android:id="@+id/button20"
+            android:layout_width="100dp"
+            android:textColor="#FFFFFF"
+            android:background="#99051228"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:onClick="suprasl"
+            android:text="Supraśl" />
+
+        <Button
+            android:layout_margin="1.5dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/button21"
+            android:textColor="#FFFFFF"
+            android:background="#99051228"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:onClick="tykocin"
+            android:text="Tykocin" />
+
+        <Button
+            android:layout_margin="1.5dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/button22"
+            android:textColor="#FFFFFF"
+            android:background="#99051228"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:onClick="turosnKoscielna"
+            android:text="Turośń Kościelna" />
+
+        <Button
+            android:layout_margin="1.5dp"
+            android:gravity="center"
+            android:id="@+id/button23"
+            android:layout_gravity="center_vertical"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_column="0"
+            android:textColor="#FFFFFF"
+            android:background="#99051228"
+            android:layout_row="2"
+            android:text="Gródek"
+            android:onClick="grodek"/>
+
+        <Button
+            android:layout_margin="1.5dp"
+            android:gravity="center"
+            android:id="@+id/button24"
+            android:layout_width="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:textColor="#FFFFFF"
+            android:background="#99051228"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:text="Białowież"
+            android:onClick="bialowieza"/>
+
+        <Button
+            android:layout_margin="1.5dp"
+            android:onClick="bielskPodlaski"
+            android:gravity="center"
+            android:id="@+id/button26"
+            android:layout_width="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:textColor="#FFFFFF"
+            android:background="#99051228"
+            android:text="Bielsk Podlaski" />
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>
